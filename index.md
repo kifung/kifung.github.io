@@ -4,4 +4,3 @@
 
 layout: home
 ---
-I'm Kitty!

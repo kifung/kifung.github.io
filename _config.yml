@@ -16,18 +16,19 @@
 title: Kitty Fung
 email: kitt.fung@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Hello! I'm Kitty, a senior at UC Santa Barbara majoring in Computer Science. Welcome to my website!
+    Hello, I'm Kitty. Welcome to my website!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: kifung
-github_username:  kifung
-
+author:
+  name: Kitty Fung
+  url: https://github.com/kifung
 # Build settings
+site.github.repository_url: "https://github.com/kifung"
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-
+github: [metadata]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
