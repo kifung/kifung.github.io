@@ -16,7 +16,7 @@
 title: Kitty Fung
 email: kitt.fung@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Hello, I'm Kitty. Welcome to my website!
+    Hello! I'm Kitty. Welcome to my website!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
@@ -24,6 +24,7 @@ author:
   url: https://github.com/kifung
 # Build settings
 site.github.repository_url: "https://github.com/kifung"
+google_analytics: UA-20975494-5
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
