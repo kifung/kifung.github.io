@@ -24,7 +24,7 @@ author:
   url: https://github.com/kifung
 # Build settings
 site.github.repository_url: "https://github.com/kifung"
-google_analytics: UA-20975494-5
+google_analytics: UA-147902394-1
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
