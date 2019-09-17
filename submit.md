@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: Form Submitted
+title: Thank You
 permalink: /submitted/
 ---
 Thank you!
