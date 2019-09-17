@@ -20,7 +20,7 @@ audio:not([controls]) { display: none; height: 0; }
 
 /* Links ========================================================================== */
 /** Remove the gray background color from active links in IE 10. */
-a { background-color: FFFFFF; }
+a { color: #5433FF; background-color: FFFFFF; }
 
 /** Improve readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
@@ -257,7 +257,7 @@ body { padding: 0; margin: 0; font-family: "Open Sans", "Helvetica Neue", Helvet
 a { color: #5433FF; text-decoration: none; font-size: 16px; }
 a:hover { text-decoration: underline; }
 
-.btn { display: inline-block; margin-bottom: 1rem; color: rgba(255, 255, 255, 0.7); background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.2); border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+.btn { display: inline-block; margin-bottom: 0.08rem; color: rgba(255, 255, 255, 1); background-color: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.2); border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 .btn:hover { color: rgba(255, 255, 255, 0.8); text-decoration: none; background-color: rgba(255, 255, 255, 0.2); border-color: rgba(255, 255, 255, 0.3); }
 .btn + .btn { margin-left: 1rem; }
 @media screen and (min-width: 64em) { .btn { padding: 0.75rem 1rem; } }
@@ -316,3 +316,27 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; font-size: 8px; }
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  margin: 0 auto;
+  color: white;
+  float: left;
+  padding: 0px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  margin: 0 auto;
+  color: white;
+  float: left;
+  padding: 0px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.pagination a:hover:not(.active) {border-bottom: 1px solid white;}
