@@ -2542,6 +2542,7 @@ input[type="button"].btn-block {
         font-size: 16px;
         border: none;
         color: white;
+        margin:5px;
       }
       .dropdown-content p {
         color: black;
@@ -8662,9 +8663,10 @@ h1, h2, h3, h4, h5,
   z-index: 0;
   position: relative; }
   .ftco-about .img-about .img {
-    display: block;
+    padding:280px 25px;
+    display: inline-flex;
     width: 100%;
-    position: relative;
+    position: static;
     z-index: 1; }
 
 .ftco-about ul.about-info {
