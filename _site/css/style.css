@@ -8410,7 +8410,7 @@ h1, h2, h3, h4, h5,
   z-index: 0; }
 
   .navbar-brand span {
-    font-size: xx-large;
+    font-size: 160%;
     color: cornflowerblue; }
 
 .hero-wrap {
